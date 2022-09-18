@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Inter:wght@400;500;600&family=Josefin+Sans&display=swap");
+
+body {
+  background: url("https://phonoteka.org/uploads/posts/2021-10/1633098091_22-phonoteka-org-p-van-pis-fon-dlya-rabochego-stola-krasivo-24.jpg");
+  padding: 70px 0;
+  font-family: "Dosis", sans-serif;
+}
+.container {
+  width: 980px;
+  min-height: auto;
+  border: 5px solid white;
+  margin: 0 auto;
+  background: whitesmoke;
+  background: url("https://oir.mobi/uploads/posts/2021-01/1611919875_38-p-krasivii-belii-fon-38.jpg");
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin-right: 10px;
+  border: 2px solid white;
+  background: url("https://oir.mobi/uploads/posts/2021-03/1616587100_6-p-programmirovanie-fon-7.jpg")
+    no-repeat center center / cover;
+  color: snow;
+}
+
+.user-me {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  border: 2px solid white;
+  background: url("https://pbs.twimg.com/media/FLrISH7VkAU29KG.jpg") center
+    center / cover;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  background: rgb(230, 230, 230);
+}
+
+.nav li a {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+}
+
+.nav li a:hover {
+  background: rgb(196, 196, 196);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h3 {
+  margin-left: 40px;
+}
+
+.sidebar {
+  padding: 20px;
+  width: 30%;
+}
+
+.skills li {
+  margin: 10px 0;
+}
+
+.skills li:hover {
+  transform: translateX(10px);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d1d1d1;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+footer a {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  padding-top: 20px;
+}
